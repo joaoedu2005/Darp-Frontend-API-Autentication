@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@import "tailwindcss/preflight";
+@tailwind utilities;
+
+
+/* ===== Design tokens ===== */
+:root {
+  --brand-50:  oklch(98% 0.02 264);
+  --brand-100: oklch(95% 0.04 264);
+  --brand-600: oklch(60% 0.17 264); /* cor principal */
+  --brand-700: oklch(54% 0.17 264);
+  --bg:        oklch(99% 0 264);
+  --fg:        oklch(22% 0.02 264);
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--fg);
+}
+
+/* helpers opcionais */
+.container-narrow { @apply max-w-md mx-auto px-4; }
+.card { @apply rounded-2xl border shadow; border-color: color-mix(in oklab, var(--brand-100), transparent 60%); }
