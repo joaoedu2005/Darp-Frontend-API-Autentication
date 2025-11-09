@@ -12,7 +12,7 @@ O sistema permite o **registro e login de usuários** de forma intuitiva, utiliz
 - [TypeScript](https://www.typescriptlang.org/) — Tipagem estática e segurança no código  
 - [Tailwind CSS](https://tailwindcss.com/) — Estilização rápida e responsiva  
 - [RxJS](https://rxjs.dev/) — Gerenciamento de assinaturas e streams  
-- [Toast personalizado](https://angular.io/guide/standalone-components) — Sistema leve de notificações sem dependências externas  
+ 
 
 ### **Backend (fornecido no desafio)**
 - [NestJS](https://nestjs.com/) — API REST simples de autenticação  
@@ -32,7 +32,7 @@ O design foi criado para ser **limpo, fluido e responsivo**, com uma transição
 - Layout dividido: imagem ilustrativa + card de autenticação  
 - Campos interativos com **feedback visual e hover states**  
 - Botões sociais: *Sign in with Google / Apple*  
-- Toasters dinâmicos para mensagens de sucesso ou erro  
+
 
 ---
 
@@ -42,7 +42,6 @@ O design foi criado para ser **limpo, fluido e responsivo**, com uma transição
 |----------|------------|
 | 🧾 **Registro** | Integração direta com o endpoint `/auth/register` |
 | 🔐 **Login Simulado** | Verifica existência do usuário via `/user` |
-| 🪄 **Toasters Reativos** | Sistema leve de feedback (success / error) |
 | 🪶 **Transição Animada** | Mudança visual suave entre login e registro |
 | 🎨 **Tailwind Ready** | UI responsiva e de fácil personalização |
 
